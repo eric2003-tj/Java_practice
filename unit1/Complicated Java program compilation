@@ -1,0 +1,13 @@
+<h1>Complicated Java program compilation</h1>
+## Method 1
+javac TransportBike.java
+javac TransportCar.java
+javac TransportationDriver.java
+## Method 2
+javac TransportBike.java TransportCar.java TransportationDriver.java
+## Method 3
+javac Transport*.java  //Since the files with same keywords
+## Method 4
+javac TransportationDriver.java //Compile the file with main method
+## execution
+java TransportationDriver
